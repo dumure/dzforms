@@ -1,0 +1,71 @@
+﻿*
+{
+    margin: 0;
+}
+
+.container
+{
+    background: #5d5d35;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: beige;
+    align-items: center;
+}
+
+.container > div:first-child
+{
+    display: flex;
+    flex-direction: column;
+    width: calc(25rem + 60px);
+    position: relative;
+    top: 30px;
+    gap: 1rem;
+}
+
+.container > div:first-child > div:first-child
+{
+    font-family: "Ubuntu sans", sans-serif;
+    font-size: 2rem;
+}
+
+#personal-form
+{
+    font-family: Calibri, sans-serif;
+    font-size: 1.2rem;
+    background: #42422b;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    width: 25rem;
+    height: 28rem;
+    gap: 2rem;
+}
+
+#full_name, #email, #website
+{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+#comments
+{
+    width: 100%;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+#submit-form
+{
+    border-width: 3px;
+    border-radius: 20px;
+    background: #e79536;
+    font-family: "Ubuntu sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 2rem;
+}
